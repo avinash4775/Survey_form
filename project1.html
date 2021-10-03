@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC:Survey Form</title>
+</head>
+<body>
+    <header>
+        <h1 id="tittle">Website Survey</h1>
+        <p id="description">Thank you for taking the time to visit this website</p>
+    </header>
+    <div class="container">
+        
+        <form action="" id="survey-form" class="input-class">
+            <label for="name-label">Name</label><br>
+            <input class="input-text" type="text"  id="name-label" placeholder="Enter your name"><br>
+            <br>
+            <label for="email-label">Email</label><br>
+            <input  class="input-text" type="email" id="email-label" placeholder="Enter your Email"><br>
+            <br>
+            <label for="number-label">Age (optional)</label><br>
+            <input  class="input-text" type="number"  id="number-label" placeholder="Age" value="20" max="100" min="5"><br>
+            <br>
+            <label for="role">How did you hear about this website?</label><br>
+            <select  class="input-text" name="role" id="dropdown" >
+                <option value="" disabled selected>Select option</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Advertising">Advertising</option>
+                <option value="Search Engine">Search Engine</option>
+                <option value="Friend">Friend</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+
+            <label for="recommendations">What browser do you use?</label><br>
+            <input type="radio"  id="Google Chrome" >
+            <label for="Google Chrome">Google Chrome</label><br>
+            <input type="radio"  id="Firefox" >
+            <label for="Firefox">Firefox</label><br>
+            <input type="radio"  id="IE">
+            <label for="IE">IE</label><br>
+            <input type="radio"  id="Safari">
+            <label for="Safari">Safari</label><br>
+            <input type="radio"  id="Opera">
+            <label for="Opera">Opera</label><br>
+
+
+
+            <br>
+            <label for="feature">Which device did you use to access the website?</label><br>
+            <select  class="input-text" name="feature" id="dropdown">
+                <option value="" disabled selected>Select option</option>
+                <option value="Desktop/Laptop">Desktop/Laptop</option>
+                <option value="Pad devices">Pad devices</option>
+                <option value="Mobile devices">Mobile devices</option>
+               
+
+            </select>
+        <br>
+            <br>
+        <label for="improvements">Are you satisfied that you found out the website?</label><br>
+        <select  class="input-text" name="new_feature" id="new_dropdown">
+            <option value="select option" disabled selected>Select option</option>
+            <option value="Very Satisfied">Very Satisfied</option>
+            <option value="Satisfied">Satisfied</option>
+            <option value="Neutral">Neutral</option>
+            <option value="Unsatisfied">Unsatisfied</option>
+            <option value="Very Unsatisfied">Very Unsatisfied</option>
+
+        </select>
+
+            <br><br>
+
+            <label for="comments">Any comments or suggestions?</label><br>
+            <textarea  class="input-text" name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comments here..."></textarea>
+            <br><br>
+
+            <button id="submit" class="input-text">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
